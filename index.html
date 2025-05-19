@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ngoding Bareng | dibimbing.id</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="./assets/images/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Project</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="swiper hero-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/1920/1080" alt="Project showcase 1" width="1920" height="1080">
+                        <!-- <div class="slide-content">
+                            <h1>Welcome to Our Portfolio</h1>
+                            <p>Creating innovative solutions for tomorrow</p>
+                        </div> -->
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/1920/1081" alt="Project showcase 2" width="1920" height="1080">
+                        <!-- <div class="slide-content">
+                            <h2>Creative Design</h2>
+                            <p>Bringing your ideas to life</p>
+                        </div> -->
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://picsum.photos/1920/1082" alt="Project showcase 3" width="1920" height="1080">
+                        <!-- <div class="slide-content">
+                            <h2>Expert Solutions</h2>
+                            <p>Delivering excellence in every project</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev" aria-label="Previous slide"></div>
+                <div class="swiper-button-next" aria-label="Next slide"></div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="about">
+            <div class="container container-padding">
+                <h2 class="section-title">About</h2>
+                <div class="wrap">
+                    <img src="https://picsum.photos/400/400" alt="profile about">
+                    <div class="conten">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eveniet a rem corporis totam
+                            odit, natus facere atque exercitationem inventore fugiat. Minima similique vel nihil
+                            architecto soluta enim autem sint.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eveniet a rem corporis totam
+                            odit, natus facere atque exercitationem inventore fugiat. Minima similique vel nihil
+                            architecto soluta enim autem sint.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id="projects" class="projects">
+            <div class="container container-padding">
+                <h2 class="section-title">Our Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="https://picsum.photos/400/300" alt="Project 1 preview" width="400" height="300">
+                        <h3>Project Name 1</h3>
+                        <p>Description of the project and its key features.</p>
+                        <a href="#" class="btn" aria-label="Learn more about Project 1">Learn More</a>
+                    </article>
+                    <article class="project-card">
+                        <img src="https://picsum.photos/400/301" alt="Project 2 preview" width="400" height="300">
+                        <h3>Project Name 2</h3>
+                        <p>Description of the project and its key features.</p>
+                        <a href="#" class="btn" aria-label="Learn more about Project 2">Learn More</a>
+                    </article>
+                    <article class="project-card">
+                        <img src="https://picsum.photos/400/302" alt="Project 3 preview" width="400" height="300">
+                        <h3>Project Name 3</h3>
+                        <p>Description of the project and its key features.</p>
+                        <a href="#" class="btn" aria-label="Learn more about Project 3">Learn More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
